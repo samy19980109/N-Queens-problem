@@ -90,5 +90,4 @@ public class Queens {
         int n = Integer.parseInt(args[0]);
         enumerate(n);
     }
-
 }
