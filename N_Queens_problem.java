@@ -42,7 +42,6 @@
  ******************************************************************************/
 
 public class Queens {
-
    /***************************************************************************
     * Return true if queen placement q[n] does not conflict with
     * other queens q[0] through q[n-1]
@@ -55,7 +54,6 @@ public class Queens {
         }
         return true;
     }
-
    /***************************************************************************
     * Prints n-by-n placement of queens from permutation q in ASCII.
     ***************************************************************************/
@@ -71,8 +69,6 @@ public class Queens {
         }
         System.out.println();
     }
-
-
    /***************************************************************************
     *  Try all permutations using backtracking
     ***************************************************************************/
