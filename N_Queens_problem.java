@@ -76,7 +76,6 @@ public class Queens {
         int[] a = new int[n];
         enumerate(a, 0);
     }
-
     public static void enumerate(int[] q, int k) {
         int n = q.length;
         if (k == n) printQueens(q);
@@ -87,8 +86,6 @@ public class Queens {
             }
         }
     }
-
-
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
         enumerate(n);
